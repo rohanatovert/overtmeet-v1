@@ -1,0 +1,3 @@
+daphne -e ssl:443:privateKey=C:\inetpub\wwwroot\homiechat\homiechat\overtmeet.com\1dcfd204bac7fec0.pem:certKey=C:\inetpub\wwwroot\homiechat\homiechat\overtmeet.com\1dcfd204bac7fec0.crt homiechat.asgi
+
+sc qc nginx
